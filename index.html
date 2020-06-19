@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+
+  <style>
+
+    body {
+      background: white;
+    }
+
+    .box {
+      position: absolute;
+      width: 100%;
+    }
+
+    .box img {
+      max-width: 800px;
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+<!-- View at 25% -->
+<section>
+  <div class="box rellax" data-rellax-speed="0"><img id="bg" src="img/Layer1.png"/></div>
+  <div class="box rellax" data-rellax-speed="2"><img id="bg" src="img/Layer2.png"/></div>
+  <div class="box rellax" data-rellax-speed="1"><img id="bg" src="img/Layer3.png"/></div>
+  <div class="box rellax" data-rellax-speed="-3"><img id="bg" src="img/Layer4.png"/></div>
+  <div class="box rellax" data-rellax-speed="-1"><img id="bg" src="img/Layer5.png"/></div>
+  <div class="box rellax" data-rellax-speed="4"><img id="bg" src="img/Layer6.png"/></div>
+  <div class="box rellax" data-rellax-speed="-2"><img id="bg" src="img/Layer7.png"/></div>
+  <div class="box rellax" data-rellax-speed="3"><img id="bg" src="img/Layer8.png"/></div>
+  <div class="box rellax" data-rellax-speed="5"><img id="bg" src="img/Layer9.png"/></div>
+</section>
+
+
+
+<!-- Scripts -->
+<script src="../rellax.js"></script>
+  <script>
+    var rellax = new Rellax('.rellax', {horizontal: false, vertical: true});
+  </script>
+</body>
+
+</html>
