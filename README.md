@@ -1,7 +1,7 @@
 # impostersyndrome
-This artwork is about imposter syndrome and has a parallax effect.
+This artwork from 2020 is about imposter syndrome and has a parallax effect.
 
-The artwork and the first version of the code are entirely my own work. That original version is
+The artwork and the first version are my own work. That original version is
 saved as the release **v1-original**.
 
 Later I made it smoother with help from Claude (AI):
